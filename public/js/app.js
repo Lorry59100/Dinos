@@ -1,12 +1,14 @@
 /*** LOOP AUDIO ***/  
 
-/* var myAudio = new Audio('https://freesound.org/data/previews/344/344204_5922762-lq.mp3'); 
+var myAudio = new Audio('https://freesound.org/data/previews/344/344204_5922762-lq.mp3'); 
 myAudio.addEventListener('ended', function() {
     this.currentTime = 0;
     this.play();
 }, false);
 myAudio.play(); 
- */
+
+/* AUDIO DES DINOS */
+
 var raptorAudio = new Audio('https://freesound.org/data/previews/233/233279_4056007-lq.mp3'); 
 
 function RaptorSound() {
