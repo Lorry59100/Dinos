@@ -47,15 +47,16 @@ h1 {
     
 #raptor {
         position: relative;
-        right: 100px;
+        right: -100px;
         width: 80%;
         height: 100%;
+        top: -50px;
 }
     
 #trex {
         width: 110%;
         position: relative;
-        bottom: 100px;
+        bottom: 10px;
         margin-left: -100px;
         height: 110%;
 }
