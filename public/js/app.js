@@ -53,7 +53,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#animate1", offset: 50})
                                   /*  quand le triggerhook va passer à l'endroit du trigger element cela va lancer l'animation */
                                   .triggerHook(0.5)
                                   /* Ajout du curseur repère pour trigger */
-                                  .addIndicators({name: "raptor", colorTrigger: "blue",  indent: 400})
+                                  /* .addIndicators({name: "raptor", colorTrigger: "blue",  indent: 400}) */
                                   /* Liaison à Greensock */
                                   .setTween(tween)
                                   /* Reverse false pour que l'anim ne se rejoue pas */
@@ -66,7 +66,7 @@ var scene2 = new ScrollMagic.Scene({triggerElement: "#animate2", offset: 100})
                                   /*  quand le triggerhook va passer à l'endroit du trigger element cela va lancer l'animation */
                                   .triggerHook(0.8)
                                   /* Ajout du curseur repère pour trigger */
-                                  .addIndicators({name: "trex", colorTrigger: "blue", indent: 500})
+                                  /* .addIndicators({name: "trex", colorTrigger: "blue", indent: 500}) */
                                   /* Liaison à Greensock */
                                   .setTween(tween2)
                                   /* Reverse false pour que l'anim ne se rejoue pas */
@@ -79,7 +79,7 @@ var scene3 = new ScrollMagic.Scene({triggerElement: "#animate1", offset: 50})
                                   /*  quand le triggerhook va passer à l'endroit du trigger element cela va lancer l'animation */
                                   .triggerHook(0.5)
                                   /* Ajout du curseur repère pour trigger */
-                                  .addIndicators({name: "li1", colorTrigger: "green", indent: 500})
+                                  /* .addIndicators({name: "li1", colorTrigger: "green", indent: 500}) */
                                   /* Liaison à Greensock */
                                   .setTween(tweenLi)
                                   /* Reverse false pour que l'anim ne se rejoue pas */
@@ -92,7 +92,7 @@ var scene4 = new ScrollMagic.Scene({triggerElement: "#animate2", offset: 100})
                                   /*  quand le triggerhook va passer à l'endroit du trigger element cela va lancer l'animation */
                                   .triggerHook(0.8)
                                   /* Ajout du curseur repère pour trigger */
-                                  .addIndicators({name: "li2", colorTrigger: "blue", indent: 400})
+                                  /* .addIndicators({name: "li2", colorTrigger: "blue", indent: 400}) */
                                   /* Liaison à Greensock */
                                   .setTween(tweenLi2)
                                   /* Reverse false pour que l'anim ne se rejoue pas */
@@ -105,7 +105,7 @@ var scene5 = new ScrollMagic.Scene({triggerElement: "#animate1", offset: 50})
                                   /*  quand le triggerhook va passer à l'endroit du trigger element cela va lancer l'animation */
                                   .triggerHook(0.5)
                                   /* Ajout du curseur repère pour trigger */
-                                  .addIndicators({name: "btn1", colorTrigger: "blue", indent: 400})
+                                  /* .addIndicators({name: "btn1", colorTrigger: "blue", indent: 400}) */
                                   /* Liaison à Greensock */
                                   .setTween(tweenBtn)
                                   /* Reverse false pour que l'anim ne se rejoue pas */
@@ -118,7 +118,7 @@ var scene6 = new ScrollMagic.Scene({triggerElement: "#animate2", offset: 100})
                                   /*  quand le triggerhook va passer à l'endroit du trigger element cela va lancer l'animation */
                                   .triggerHook(0.8)
                                   /* Ajout du curseur repère pour trigger */
-                                  .addIndicators({name: "btn2", colorTrigger: "blue", indent: 400})
+                                  /* .addIndicators({name: "btn2", colorTrigger: "blue", indent: 400}) */
                                   /* Liaison à Greensock */
                                   .setTween(tweenBtn2)
                                   /* Reverse false pour que l'anim ne se rejoue pas */
