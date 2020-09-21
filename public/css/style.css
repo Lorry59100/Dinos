@@ -48,6 +48,8 @@ h1 {
 #raptor {
         position: relative;
         right: 100px;
+        width: 80%;
+        height: 100%;
 }
     
 #trex {
@@ -55,6 +57,7 @@ h1 {
         position: relative;
         bottom: 100px;
         margin-left: -100px;
+        height: 110%;
 }
     
 #raptorTitle {
