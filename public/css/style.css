@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-#animate1 {
+#animate1{
     height: 450px;
     background: pink;
     display: flex;
@@ -104,10 +104,13 @@ h1 {
         background: transparent;
         border: none;
         border: 1px solid black;
+        display: block;
         padding: 10px 20px;
         cursor: pointer;
         transition: all 0.1s;
         font-size: 15px;
+        height: 50px;
+        margin-top: 13%;
 }
     
 .btn:hover {
