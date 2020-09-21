@@ -19,7 +19,8 @@
 }
     
 body {
-        background: #f1f1f1;
+        background-image: url('https://images.pexels.com/photos/3668371/pexels-photo-3668371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        background-size: cover;    
         margin: 0;
         padding: 0;
         height: 2000px;
