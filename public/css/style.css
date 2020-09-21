@@ -31,8 +31,12 @@ h1 {
         position: relative;
         top: 150px;
         font-family: 'Calligraffitti', cursive;
-        font-size: 150px;
+        font-size: 3rem;
         margin: 0;
+}
+
+.titre {
+    font-size: 5rem;
 }
     
 .box {
