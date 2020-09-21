@@ -5,7 +5,6 @@
 
 #animate1{
     height: 450px;
-    background: pink;
     display: flex;
     margin: 700px auto 0;
     padding: 2em;
@@ -15,7 +14,6 @@
         height: 450px;
         display: flex;
         margin: auto;
-        background: rgb(226, 65, 92);
 }
     
 body {
